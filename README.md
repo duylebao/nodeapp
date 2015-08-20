@@ -1,4 +1,4 @@
-### This is the Echo Server project
+### This is the Echo/Proxy Server project
 
 #### Starting the server
 
