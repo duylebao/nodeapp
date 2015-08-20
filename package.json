@@ -1,0 +1,23 @@
+{
+  "name": "proxyserver",
+  "version": "1.0.0",
+  "description": "proxy server training",
+  "main": "index.js",
+  "scripts": {
+    "start": "bode index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duylebao/nodeapp.git"
+  },
+  "author": "dle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duylebao/nodeapp/issues"
+  },
+  "homepage": "https://github.com/duylebao/nodeapp#readme",
+  "dependencies": {
+    "request": "^2.61.0",
+    "yargs": "^3.19.0"
+  }
+}
