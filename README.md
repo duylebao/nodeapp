@@ -18,6 +18,19 @@ bodemon index.js  [options]
 
 ```
 
+####Usage
+
+```
+Use curl command to test the server.  While the servers are running, open up another terminal and issue:
+
+	1. test the Echo server:
+
+		curl -v -X POST http://127.0.0.1:8000 -d "hello self" -H "x-asdf: yodawg"
+
+	2.
+		curl -v http://127.0.0.1:8001/asdf -d "hello proxy"
+
+```
 
 #### Demo
 ![](walkthrough.gif)
