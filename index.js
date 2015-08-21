@@ -25,10 +25,10 @@ http.createServer((req, res) => {
 
 
 http.createServer((req, res) => {
-  	console.log('Proxying request to: ' + destinationUrl + req.url );
+  	console.log(`Proxying request to: ${destinationUrl}${req.url}` );
     let options = {
         headers: req.headers,
-        url: destinationUrl + req.url
+        url: `${destinationUrl}${req.url}`
     }
 
     options.method = req.method;
