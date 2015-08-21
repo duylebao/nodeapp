@@ -4,7 +4,7 @@
 
 ```
 npm install
-bodemon index.js  [options]
+npm start -- [options]
 ```
 
 
